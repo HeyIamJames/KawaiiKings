@@ -1,0 +1,31 @@
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.column img {
+    margin-top: 12px;
+    width: 100%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*@media (max-width: 800px) {
+    .column {
+        width: 50%;
+    }
+}*/
+
+/*@media (max-width: 600px) {
+    .column {
+        width: 100%;
+   }*/
+}
+Try it Yourslf »
